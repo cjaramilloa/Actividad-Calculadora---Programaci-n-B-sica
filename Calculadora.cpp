@@ -31,7 +31,7 @@ int main() {
             case 3: cout<<"Resultado: "<<multiplica(a, b); break;
             case 4:
                 if (b != 0) cout << "Resultado: " << divide(a, b);
-                else cout << "No se puede dividir entre 0";
+                else cout<<"No se puede dividir entre 0";
                 break;
             case 5:
                 cout<<"Base: "; cin>>a;
